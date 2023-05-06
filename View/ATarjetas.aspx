@@ -37,6 +37,7 @@
             <div>
                 <br />
                 <label class="credit-card-label mb-1 mt-2">Selección del banco:</label>
+                <div style=" width:150px">
                 <select class="form-select" aria-label="Default select example" id="selectBanco" runat="server">
                     <option selected>Banco</option>
                     <option value="BCR">BCR</option>
@@ -44,13 +45,16 @@
                     <option value="Nacional">Nacional</option>
                 </select>
                 <br />
+                </div>
                 <label class="credit-card-label mb-1 mt-2">Selección del emisor:</label>
+                <div style=" width:150px">
                 <select class="form-select" aria-label="Default select example" id="selectEmisor" runat="server">
                     <option selected>Emisor</option>
                     <option value="Visa">Visa</option>
                     <option value="Mastecard">Mastercard</option>
                     <option value="American Express">American Express</option>
                 </select>
+                </div>
                 <div>
                     <br />
                     <label class="credit-card-label mb-1 mt-2">Nombre del dueño de la tarjeta</label>

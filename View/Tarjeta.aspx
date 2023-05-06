@@ -46,11 +46,10 @@
                         <div class="row">
                 </HeaderTemplate>
                 <ItemTemplate>
-                    <div id="cardTarjetas" class="card">
+                    <div id="cardTarjetas" class="card ">
                         <img src="<%# Eval("Foto")%>" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title"><%# Eval("Emisor")%></h5>
-                            <%--<p class="card-text"><%# Eval("NTarjeta")%></p>--%>
                             **** **** **** <p class="card-text"><%# Eval("NTarjeta").ToString().Substring(Eval("NTarjeta").ToString().Length - 4)%></p>
                         </div>
                     </div>
